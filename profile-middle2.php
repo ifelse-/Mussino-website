@@ -513,12 +513,12 @@ $bgimage = SITE_WS_PATH."/products/user_image/".$colles['Bg_Image'];
               <?php } ?>
               <?php if($_SESSION['SESS_ACCOUNT_TYPE']!='Contest Judge') { ?>
               <?php if($_SESSION['SESS_ACCOUNT_TYPE']=='Musician' && $profile_id=='') { ?>
-              <li><img src="../images/icon/history_icon.jpg" align="absmiddle"/>&nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/product-list.php">My Session History</a></li>
-              <li><img src="../images/icon/createsession_icon.jpg" align="absmiddle"/>&nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/product.php?membership=<?php $collesMemberShip['Membership_Upgrade_Id']?>">Create New Session </a></li>
-              <li><img src="../images/icon/mystore_icon.jpg" align="absmiddle"/>&nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/music-store-list.php">My Music Store</a></li>
-              <li><img src="../images/icon/sellmusic_icon.jpg" align="absmiddle"/>&nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/music-store.php">Sell Beats</a></li>
-              <li><img src="../images/icon/upgrade_icon.jpg" align="absmiddle"/>&nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/membership-upgrade.php">Membership Upgrade </a></li>
-              <li><img src="../images/icon/money_bag.png" width="22" height="22" align="absmiddle" />&nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/musician-sell-session.php">Sell Session History</a></li>
+              <li><i class="fa fa-history"></i> &nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/product-list.php">My Session History</a></li>
+              <li><i class="fa fa-sliders"></i> &nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/product.php?membership=<?php $collesMemberShip['Membership_Upgrade_Id']?>">Create New Session </a></li>
+              <li><i class="fa fa-cloud"></i> &nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/music-store-list.php">My Music Store</a></li>
+              <li><i class="fa fa-barcode"></i> &nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/music-store.php">Sell Beats</a></li>
+              <li><i class="fa fa-tachometer"></i> &nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/membership-upgrade.php">Membership Upgrade </a></li>
+              <li><i class="fa fa-folder"></i> &nbsp;&nbsp;<a href="<?=SITE_WS_PATH?>/musician-sell-session.php">Sell Session History</a></li>
               <?php }?>
               <?php if($_SESSION['SESS_ACCOUNT_TYPE']=='Artist' && $profile_id=='') { ?>
 			  <?php
