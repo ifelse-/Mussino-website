@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>The Video / Youtube Gallery - iPad / iPhone Compatible</title>
+
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/swfaddress.js"></script>
+<script type="text/javascript">
+var width = 915;
+var height = 360;
+var flashvars = {
+//if you specify a xml file the settings will be read from the xml file
+xml:"xml/gallery.xml",//the next settings are useless if the xml parameter above exists.
+video:'LAmKx7e_dzI',
+types:'youtube',
+descriptions:'video',
+totalWidth:width,
+totalHeight:height,
+menuPosition:'right',
+youtubeFeed:'off',
+youtubeFeed_user:'hollywoodstreams',
+autoplayNextVideo:'off',
+/*autoplay:'on',
+thumb:'',
+scrollbar:'off',
+suggestedQuality:'hd720',
+cueFirstVideo:'on',
+shareButton:'on',
+embedButton:'off',
+logo:'',
+logoAlpha:0.7,
+logoLink:'http://activeden.net/user/ZoomIt',
+htmlEmbedCode:'',
+user:'radu4iasi',
+keywords:'',
+maxResults:20,
+shareIcons:'icons/1.png;icons/2.png',
+shareLinks:'#;#',
+shareTooltips:'test;test23',
+types:'video;video;vimeo',
+titles:'video;video',
+menuDescriptions:'videodescription;videodescription',
+prerolls:';',
+*/
+};
+var params = {
+menu: "false",
+allowScriptAccess: "always",
+scale: "noscale",
+allowFullScreen: "true",
+wmode:'transparent'
+};
+var attributes = {};
+swfobject.embedSWF("preview.swf", "flashcontent", width, height, "9.0.0", "expressInstall.swf", flashvars, params, attributes);
+var flashvars2 = {
+//if you specify a xml file the settings will be read from the xml file
+xml:"xml/gallery2.xml",//the next settings are useless if the xml parameter above exists.
+video:'video/thunder.flv',
+descriptions:'video',
+totalWidth:0,
+totalHeight:0,
+/*autoplay:'on',
+autoplayNextVideo:'on',
+thumb:'',
+menuPosition:'right',
+scrollbar:'off',
+youtubeFeed:'off',
+suggestedQuality:'hd720',
+cueFirstVideo:'on',
+shareButton:'on',
+embedButton:'off',
+logo:'',
+logoAlpha:0.7,
+logoLink:'http://activeden.net/user/ZoomIt',
+htmlEmbedCode:'',
+wpEmbedCode:'',
+user:'radu4iasi',
+keywords:'',
+maxResults:20,
+shareIcons:'icons/1.png;icons/2.png',
+shareLinks:'#;#',
+shareTooltips:'test;test23',
+types:'video;video;vimeo',
+titles:'video;video',
+menuDescriptions:'videodescription;videodescription',
+prerolls:';',
+*/
+};
+var params2 = {
+menu: "false",
+allowScriptAccess: "always",
+scale: "noscale",
+allowFullScreen: "true",
+wmode:'opaque'
+};
+swfobject.embedSWF("preview_skin_overlay.swf", "flashcontent2", 640, 460, "9.0.0", "expressInstall.swf", flashvars2, params2, attributes);
+var flashvars3 = {
+//if you specify a xml file the settings will be read from the xml file
+xml:"xml/gallery3.xml",//the next settings are useless if the xml parameter above exists.
+video:'video/thunder.flv',
+descriptions:'video',
+totalWidth:0,
+totalHeight:0,
+/*autoplay:'on',
+autoplayNextVideo:'on',
+thumb:'',
+menuPosition:'right',
+scrollbar:'off',
+youtubeFeed:'off',
+suggestedQuality:'hd720',
+cueFirstVideo:'on',
+shareButton:'on',
+embedButton:'off',
+logo:'',
+logoAlpha:0.7,
+logoLink:'http://activeden.net/user/ZoomIt',
+htmlEmbedCode:'',
+wpEmbedCode:'',
+user:'radu4iasi',
+keywords:'',
+maxResults:20,
+shareIcons:'icons/1.png;icons/2.png',
+shareLinks:'#;#',
+shareTooltips:'test;test23',
+types:'video;video;vimeo',
+titles:'video;video',
+menuDescriptions:'videodescription;videodescription',
+prerolls:';',
+*/
+};
+var params3 = {
+menu: "false",
+allowScriptAccess: "always",
+scale: "noscale",
+allowFullScreen: "true",
+wmode:'direct'
+};
+swfobject.embedSWF("preview_skin_vimeo.swf", "flashcontent3", 915, 360, "9.0.0", "expressInstall.swf", flashvars3, params3, attributes);
+</script>
+<script>
+if(document.loaded) {
+handleLoad();
+} else {
+if (window.addEventListener)
+window.addEventListener('load', handleLoad, false);
+else
+window.attachEvent('onload', handleLoad);
+}
+function handleLoad(){
+//Cufon.replace('h3,h2');
+//setTimeout(pauseVideo, 5000);
+}
+function pauseVideo(){
+//if(console)
+///console.info('paused');
+}
+</script></head>
+<body>
+<div id="header_wrapper">
+<div id="header"><img src="img/logo.png"></div>
+</div>
+<div id="content_wrapper">
+<div id="content">
+<h2>Demo 1: Self Hosted Video and Audio, YouTube videos</h2>
+<div id="flashcontent">
+<h1>Alternative content</h1>
+<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a></p>
+</div>
+</div>
+<!--end content-->
+</div>
+
+</body></html>

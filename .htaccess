@@ -1,0 +1,19 @@
+RewriteEngine on
+RewriteBase / 
+Options -Indexes
+DirectoryIndex index.php
+
+
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+
+RewriteRule ^([0-9]+)/([^/]+) my-profile.php?user=$1 [NC]
+
+</IfModule> 
+
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+

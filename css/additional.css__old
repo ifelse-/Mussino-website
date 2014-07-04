@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.block { display:block;}
+
+.contentArea  .lftPannel.user.lft-col { width:640px;}
+.contentArea .lftPannel.user.lft-col .postNew { width:auto; float:none; padding:10px;}
+.contentArea .lftPannel.user.lft-col .postNew p { padding:10px;}
+.contentArea .lftPannel.user.lft-col .postNew textarea { width:100%; margin:0; font-size:12px;}
+.contentArea .lftPannel.user.lft-col .postNew .postNewBtn { float:none; margin:10px 0 0 0;}
+
+.contentArea .rgtPannel.history.judge { width:279px; padding-top:35px;}
+.contentArea .rgtPannel.history.info .scroller,
+.contentArea .rgtPannel.history.info .postBlock,
+.contentArea .rgtPannel.history.info .postBlock p { width:auto;}
+.contentArea .rgtPannel.history.info .postBlock div { float:none; width:auto;}
+.contentArea .rgtPannel.history.info .postBlock .user { padding:0px 0 0 0; float:right;}
+.contentArea .rgtPannel.history.info .postBlock .user strong,
+.contentArea .rgtPannel.history.info .postBlock .user span { line-height:33px;}
+.contentArea .rgtPannel.history.info .postBlock { border-bottom:1px #dadada solid; padding:0 0 10px 0;}
+.contentArea .rgtPannel.history.info .links ul li { float:left; font-size:11px; line-height:23px;  border-bottom:1px #dadada solid; margin-bottom:10px;}
+.contentArea .rgtPannel.history.info .links ul li a { color:#9d9d9d}
+.contentArea .rgtPannel.history.info .links ul li.session { background:url(../images/session-icn.png) left no-repeat; padding:0 10px 0 18px;}
+.contentArea .rgtPannel.history.info .links ul li.session a { color:#5A85E4;}
+.contentArea .rgtPannel.history.info .links ul li.text { background:url(../images/edit-icn.png) left no-repeat; padding:0 10px 0 24px; }
+.contentArea .rgtPannel.history.info .links ul li.audio { background:url(../images/audio-icn.png) left no-repeat; padding:0 10px 0 25px} 
+.contentArea .rgtPannel.history.info .links ul li.video { background:url(../images/video-icn.png) left no-repeat; padding:0 10px 0 25px} 
+.contentArea .rgtPannel.history.info .scroller { width:auto; float:none;}
+.contentArea .rgtPannel.history.info .postBlock { width:auto; float:none; min-height:50px;}
+.contentArea .rgtPannel.history.info a.global-box { display:block; float:right; margin-left:80px; text-transform:uppercase; font-size:18px; margin-top:9px; color:#666;}
+.contentArea .rgtPannel.history.info .postBlock .caption { float:left; text-align:left; padding-top:56px;}
+.contentArea .rgtPannel.history.info .postBlock .caption h3 { padding:0; margin:0; font-size:13px; color:#323232; font-weight:normal;}
+.contentArea .rgtPannel.history.info .postBlock .caption span { font-size:15px; color:#323232;}
+
+.contentArea .rgtPannel.history.info { width:auto; float:none;}
+
+.g-total { width:auto; min-width:228px; background:#dde5e7; margin:10px 0 0 0; border:1px #bdbcb8 solid; padding:10px; text-align:center;}
+.g-total.pad-rit { margin-right:77px;}
+.g-total .value-total { font-size:15px; text-align:center; padding-bottom:10px;}
+.g-total .orange-btn2 { display:inline-block;}
+
+.orange-btn2 { font-size:15px; color:#FFFFFF; font-weight:bold; background:url(../images/orange-btn.png) left -40px repeat-x; line-height:35px; text-align:center;}
+.orange-btn2 a { display:block; background:url(../images/orange-btn.png) left top no-repeat; color:#FFF;}
+.orange-btn2 a span { display:block; background:url(../images/orange-btn.png) right -80px no-repeat; height:40px; padding:0 10px;}
+.orange-btn2 a:hover { color:#000; text-decoration:none;}
+
+
+

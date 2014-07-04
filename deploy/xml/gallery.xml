@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content>
+<settings>
+<!--check the documentation  in the readme/ folder for detailed explanation of this params -->
+<totalWidth>915</totalWidth>
+<totalHeight>360</totalHeight>
+<autoplay>on</autoplay>
+<autoplayNextVideo>on</autoplayNextVideo>
+<thumb></thumb>
+
+<menuPosition>right</menuPosition>
+<scrollbar>off</scrollbar>
+
+<youtubeFeed>of</youtubeFeed>
+<!--the next 4 settings are relevant only if youtubeFeed is set to on-->
+<youtubeFeed_user>fpkesp2008</youtubeFeed_user>
+<youtubeFeed_keywords></youtubeFeed_keywords>
+<!--you can have a playlist play here, you just need to enter it's ID-->
+<youtubeFeed_playlistId>8225E0D9C2612A1F</youtubeFeed_playlistId>
+<youtubeFeed_maxResults>40</youtubeFeed_maxResults>
+
+<suggestedQuality>hd720</suggestedQuality><!--deprecated-->
+<sdQuality>small</sdQuality>
+<hdQuality>hd720</hdQuality>
+<defaultQuality>hd</defaultQuality>
+<!--choose default quality - sd / hd-->
+
+<cueFirstVideo>on</cueFirstVideo><!--choose whether or not the first video should preload or not-->
+
+<shareButton>on</shareButton>
+<shareButtonWidth>32</shareButtonWidth>
+<shareButtonHeight>32</shareButtonHeight>
+
+<embedButton>on</embedButton>
+
+<logo>img/videologo.png</logo>
+<logoAlpha>0.7</logoAlpha>
+<logoLink>http://activeden.net/user/ZoomIt</logoLink>
+
+<streamServer>rtmp://flv.alkalema.tv/live/</streamServer>
+
+<!--rtmp://67.222.27.14/herbs360_vw-->
+
+
+<htmlEmbedCode><![CDATA[%60iframe%20src=%20width=900%20height=300%62%60/iframe%62]]></htmlEmbedCode>
+<keep_logo_on_fullscreen>on</keep_logo_on_fullscreen>
+<shuffleOnStart>off</shuffleOnStart>
+<deeplinking>off</deeplinking>
+<defaultVolume>-1</defaultVolume><!-- -1 means default, so just leave it like this if you don't need to force a volume -->
+<scaleMode>proportional</scaleMode><!-- fill or proportional or original -->
+<disableDescription>off</disableDescription>
+<scroll_blur>off</scroll_blur>
+</settings>
+
+
+
+
+<!--you have no use for this if <shareButton> is off-->
+<socialItem icon='icons/1.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/2.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/3.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/4.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/5.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/6.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/7.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/8.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+<socialItem icon='icons/9.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem>
+
+
+
+
+
+
+<item>
+<source>video/test.mp4</source><!--input here path to the video or video id (if type is vimeo or youtube)-->
+<!--input here path to the video or video id (if type is vimeo or youtube)-->
+<thumb>thumbs/pages1.jpg</thumb><!--thumb that will appear in the menu-->
+<title>Pages</title><!--title that will appear in the menu-->
+<description><![CDATA[dadar]]></description><!--description that will appear in the video area, leave blank if  you don't want it-->
+<menuDescription>AE Project by Generator</menuDescription><!--description that will appear in the menu-->
+<type>video</type><!--type - youtube/normal/vimeo-->
+<hdsource>video/test.flv</hdsource><!--input here path to the video or video id (if type is vimeo or youtube)-->
+<previewshotsdir>film1thumbs</previewshotsdir>
+<html5sourceogg>video/test.ogv</html5sourceogg><!--if you use the html5 gallery -->
+</item>
+
+
+
+<item>
+<source>2</source><!--input here path to the video or video id (if type is vimeo or youtube)-->
+<thumb>thumbs/thunder1.jpg</thumb><!--thumb that will appear in the menu-->
+<description><![CDATA[<strong><font size="16">Video Description</font></strong><br></br>You can have a description here if you choose to.]]></description><!--description that will appear in the video area, leave blank if  you don't want it-->
+<menuDescription>AE Project by Generator</menuDescription><!--description that will appear in the menu-->
+<type>vimeo</type><!--type - youtube/normal/vimeo-->
+</item>
+
+<item>
+<source>FNQowwwwYa0</source>
+<title>Earth in HD</title>
+<description><![CDATA[This gallery lets you showcase youtube/local/vimeo movies togheter.]]></description>
+<menuDescription><![CDATA[This gallery lets you showcase youtube/local/vimeo movies togheter.]]></menuDescription>
+<type>youtube</type>
+</item>
+
+
+<item>
+<source>2</source>
+<title>Earth in HD</title>
+<description><![CDATA[]]></description>
+<menuDescription><![CDATA[]]></menuDescription>
+<type>vimeo</type>
+</item>
+
+
+<item>
+<source>audio/test.mp3</source>
+<thumb>thumbs/pages1.jpg</thumb>
+<title><![CDATA[<strong>New!</strong> Audio Files]]></title>
+<description></description>
+<menuDescription>This is a mp3 file. You can now use this gallery to showcase your tracks too!</menuDescription>
+<type>audio</type>
+<audioImage>thumbs/pages1.jpg</audioImage>
+</item>
+
+
+
+
+
+
+<item>
+<source>video/test.flv</source><!--input here path to the video or video id (if type is vimeo or youtube)-->
+<thumb>thumbs/pages1.jpg</thumb>
+<title>Video with an Ad</title>
+<description>You can have multiple thumbs showcasing your video.</description>
+<menuDescription>You can have your own ad play before the video. Very simple to setup!</menuDescription>
+<preroll>video/test.flv</preroll>
+<type>video</type>
+</item>
+
+
+
+
+
+<item>
+<source>2</source><!--input here path to the video or video id (if type is vimeo or youtube)-->
+<title>Pages</title><!--title that will appear in the menu-->
+<description><![CDATA[<strong><font size="16">Video Description</font></strong><br></br>You can have a description here if you choose to.]]></description><!--description that will appear in the video area, leave blank if  you don't want it-->
+<menuDescription>AE Project by Generator</menuDescription><!--description that will appear in the menu-->
+<type>vimeo</type><!--type - youtube/normal/vimeo-->
+</item>
+
+
+</content>

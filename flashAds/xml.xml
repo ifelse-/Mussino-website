@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+  <banner>
+
+
+    <scene1 line_1="NEW MUSIC"
+	   		line_2="INDUSTRY"/>
+
+    <scene2 line_1="ADVERTISE ON"
+	    	line_2="MUSSINO.COM"/>
+
+    <scene3 line_1="LOOKING TO"
+	    	line_2="REACH MILLIONS OF PEOPLE"/>   
+ 
+    <scene4 line_1="LIMITED TIME OFFER"
+	   		line_2="WEBSITE ADVERTISEMENT"
+	   		line_3="STARTING $50"/> 
+
+    <scene5 line_1="START HERE"
+	    	line_2="FOR MORE INFORMATION"/>
+
+    <logo   filename="http://mussino.com/flashAds/logo.png"/>
+    
+    <bg     filename="http://mussino.com/flashAds/background.jpg"/>
+
+    <click  url="http://mussino.com"
+	    	target="_blank"/>
+
+  </banner>

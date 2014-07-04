@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<video>
+	<config videoWidth="640" videoHeight="360" videoBufferTime="2" autoStartVideoPlay="no" autoNextVideo="no" videoStartVolume="75" playerSkinNumber="1" infoBackColor="0x000000" infoBackColorTransparency="50" showLogo="yes" logoImagePath="images/logo.png" logoPlacePosition="top-right" logoMargin="20" logoWidth="80" logoHeight="47" logoTransparency="50" videoBarColorName="blue" volumeBarColorName="blue" showCoverImage="no" coverImagePath="" hideControlPanelAndMouse="yes" hideTime="5" TimeToShowInfoOnVideoStart="3" HD_ModeOn="yes" HD_buttonVisible="yes" fullscreenButtonVisible="yes" hideShowPlaylistButtonVisible="yes" aspectRatioMode="1:1" preloadFirstVideoFile="yes" showThumbnailPreviewToolTipTitle="no" changeAspectRatioTooltipText="Aspect Ratio" infoTooltipText="Info" fullScreenTooltipText="Full Screen" hdButtonTooltipText="HD / SD"/>
+	<video_item> 
+		<hd_video_path>products/default_video/Video_File_1.flv</hd_video_path>
+		<sd_video_path>products/default_video/Video_File_1.flv</sd_video_path>
+		<video_title><![CDATA[<font color="#99CCFF" size="28">Join Today Free</font>]]></video_title>
+		<video_description><![CDATA[<font color="#FFFFFF" size="14">Create a profile and </font><font color="#00FFFF" size="14">make money with your talent</font> <font color="#FFFF00" size="14"><a href='http://mussino.com/main-page.php?id=13' target='_blank'> Join Now.</a></font>]]></video_description>
+	</video_item>
+	
+</video>

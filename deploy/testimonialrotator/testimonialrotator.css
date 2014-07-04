@@ -1,0 +1,10 @@
+
+.testimonialrotator{ position:relative; }
+.testimonialrotator .testimonial{ position:absolute; top:0; left:0;  display:none; }
+.testimonialrotator .testimonial:first-child{  position:relative; display:block; }
+.testimonial span { font-size: 2.5em;
+font-family: Courier New, Arial;
+font-style: italic; line-height:1em; color:#555; }
+.testimonial .the-author { font-size: 1em;
+font-family: Courier New, Arial;
+font-style: italic;  color:#aaa; margin-top:10px; }

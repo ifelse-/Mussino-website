@@ -1,0 +1,52 @@
+
+----- Installation procedure:
+
+1. Edit "settings.php" file and edit the variables there.
+   You should at least put your Google Maps API key there, which may be acquired here:
+   http://code.google.com/apis/ajaxsearch/signup.html
+
+2. Upload the script to a directory on your server.
+   The directory should be located somewhere inside the webroot (i.e. "public_html")
+
+3. Upload MaxMind geolocation database to the same directory.
+   You can do this manually or let the script do this for you.
+
+3a. Manual upload: visit the MaxMind page at http://www.maxmind.com/app/geolitecity
+    click on "Download the latest GeoLite City Binary Format" link, then unpack and
+    upload to the script directory (replace the empty file there).
+
+3b. Automatic upload: navigate to your script http://yoursite.com/visitors/
+    follow the on-screen instructions (you might have to set permissions to provide
+    write access to the GeoLiteCity.dat file, typically 0777 will work).
+
+4. Install tracking include to you main site pages.
+   You should put a small PHP code inside the pages of your site you'd like to track.
+   In most PHP scripts there is a file that all the pages include, like "header.php"
+   It may be reasonable to place the code there.
+
+<?php
+    include('path_to_the_script/track.php');
+    track_visitor();
+?>
+
+
+----- General notes:
+
+- You can track authorized users by passing the username or email to the function call,
+  for example:
+    track_visitor($_SESSION['email']);
+  
+  What you pass as the parameter depends on how your authorization implementation.
+  For an AMember installation it may look like:
+    track_visitor($_SESSION['_amember_user']);
+
+- If you'd like to password protect the script, you can use Apache .htaccess rules.
+  This may be done via cPanel or manually (see: http://www.javascriptkit.com/howto/htaccess3.shtml)
+
+- The tracker file (track.php) is autonomous, i.e. it doesn't depend on any other files
+  from the script installation.
+
+- The script uses the server's temporarary directory (/tmp) to store the tracking
+  information. The old files get cleaned automatcially when you visit the main page.
+
+- When displaying the complete visit log, date/time is shown in UTC.

@@ -1,0 +1,97 @@
+<videoplayer>
+
+	<settings>
+	<!-- components Width & Height -->
+	
+		<!--<Start> if you put 0(ZERO) it will take the stage height/width or both
+		(it depends were you put 0(ZERO)) -->
+		<width>420</width><!--Default: 590-->
+		<height>300</height><!--Default: 300 -->
+		<!--<End> -->
+		
+		<embeddedTextWidth>346</embeddedTextWidth><!--Default: 346 -->
+		<embeddedTextHeight>163</embeddedTextHeight><!--Default: 163 -->
+		<sendMailWidth>346</sendMailWidth><!--Default: 346 -->
+		<sendMailHeight>128</sendMailHeight><!--Default: 128 -->
+		
+	<!-- set components position -->
+	<!-- values: top, right, bottom, left, center, middle -->
+	<!-- For X pos: left, middle, right -->
+	<!-- For Y pos: top, center, bottom -->
+	<!-- please read the help file to see possible configurations -->
+		<controllerPosition order="first">bottom</controllerPosition>
+		<progressBarPosition order="second">bottom</progressBarPosition>
+		<sendMailPositionX>middle</sendMailPositionX>
+		<sendMailPositionY>center</sendMailPositionY>
+		<embeddedTextPositionX>middle</embeddedTextPositionX>
+		<embeddedTextPositionY>center</embeddedTextPositionY>
+		<bufferPositionX>middle</bufferPositionX>
+		<bufferPositionY>center</bufferPositionY>
+		<miniMenuPositionX>right</miniMenuPositionX>
+		<miniMenuPositionY>top</miniMenuPositionY>
+
+	<!-- video title settings -->
+	<!-- it will work only for long videonames(those who exceed the player width) -->
+		<videoTitleAutoScroll>true</videoTitleAutoScroll>
+		<!-- it supports only positive numbers -->
+		<videoTitleScrollSpeed>2.5</videoTitleScrollSpeed>
+
+	<!-- data -->
+		<embeddedCode><![CDATA[<object width="584" height="362"><param name="movie" value="preview.swf" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed src="preview.swf" width="584" height="362" allowFullScreen="true" allowScriptAccess="always"></embed></object>]]></embeddedCode>
+		<!-- this message will be singleline, so be careful with the length -->
+		<errorMessage>*Invalid E-mail Adress</errorMessage>
+		<!-- this message will be singleline, so be careful with the length -->
+		<copyMessage>*Text Copied!</copyMessage>
+		<!-- the name that will appear next to your e-mail adress, ex.: nickName <name@email.com> -->
+		<nickName>Jhon Doe</nickName>
+		<mail>john@example.com</mail>
+		<!-- the e-mail title -->
+		<emailSubject>You got to see this video: [write here video link]</emailSubject>
+		<!-- the message that will appear in you e-mail -->
+		<mailMessage>Check out this link. The video is awesome.</mailMessage>
+		<!-- e-mail footer -->
+		<emailFooter>Jhon Doe</emailFooter>
+		
+		<copyRight>Copyright © Your Name/ Your Company</copyRight>
+		<link>http://google.com</link>
+		<target>_blank</target>
+		<!-- send mail to friend title -->
+		<sendMailTitle>Send to friend:</sendMailTitle>
+		<!-- embedded code tile -->
+		<embeddedCodeTitle>Embed code:</embeddedCodeTitle>
+	<!-- php URL -->
+		<phpUrl>php/mail_sender.php</phpUrl>
+		
+	<!-- videoPlayer settings -->
+		<autoPlay>false</autoPlay>
+		<autoLoad>false</autoLoad>
+		<repeat>false</repeat>
+		<miniMenuVisible>true</miniMenuVisible>
+		<!-- autohide controllers on normal view -->
+		<autoHide>true</autoHide>
+		
+		<!-- between 0(ZERO) and 1 -->
+		<initialVolume>0.5</initialVolume>
+		
+		<!-- buffer time is in seconds -->
+		<!-- it supports only positive numbers -->
+		<bufferTime>1</bufferTime>
+		
+		<!-- video Mode : stretch, original, FitToSize, FitToFill  -->
+		<videoMode>FitToFill</videoMode>
+		<!-- pic Mode : stretch, original, FitToSize, FitToFill  -->
+		<picMode>stretch</picMode>
+		<!-- video background color(format: 0xRRGGBB) -->
+		<videoColor>0x000000</videoColor>
+	</settings>
+	
+	<!-- video -->
+	<video>
+		<!-- Your Video .FLV, .MOV or .MP4 URL --> 
+		<videoURL>vids/buynotes.mov</videoURL>
+		<!-- Your Picture's URL -->
+		<videoPrev>vid-prev/test.jpg</videoPrev>
+		<!-- Your Video Title -->
+		<videoName>Learn about Notes</videoName>
+	</video>
+</videoplayer>

@@ -1,0 +1,75 @@
+
+<?xml version="1.0" encoding="utf-8"?> 
+<content> 
+<settings> 
+<totalWidth>400</totalWidth> 
+<totalHeight>250</totalHeight> 
+<autoplay>onf</autoplay> 
+<autoplayNextVideo>off</autoplayNextVideo> 
+<thumb></thumb> 
+ 
+<menuPosition>none</menuPosition> 
+<scrollbar>off</scrollbar> 
+ 
+<youtubeFeed>off</youtubeFeed> 
+<youtubeFeed_user>YoungAllianceNetwork</youtubeFeed_user> 
+<youtubeFeed_keywords></youtubeFeed_keywords> 
+<youtubeFeed_playlistId></youtubeFeed_playlistId> 
+<youtubeFeed_maxResults>20</youtubeFeed_maxResults> 
+ 
+<suggestedQuality>hd720</suggestedQuality> 
+ 
+<cueFirstVideo>on</cueFirstVideo><!--choose whether or not the first video should preload or not--> 
+ 
+<shareButton>off</shareButton> 
+<shareButtonWidth>32</shareButtonWidth> 
+<shareButtonHeight>32</shareButtonHeight> 
+ 
+<embedButton>off</embedButton> 
+ 
+<logo>img/videologo.png</logo> 
+<logoAlpha>0.7</logoAlpha> 
+<logoLink>http://activeden.net/user/ZoomIt</logoLink> 
+ 
+<streamServer>rtmp://localhost/oflaDemo</streamServer><!--only needed for rtmp--> 
+<!--rtmp://ec2-46-137-3-145.eu-west-1.compute.amazonaws.com:1935/live , myStream--> 
+<!--rtmp://stream4.dmi.ae/live4/mp4, noordubai440.sdp--> 
+ 
+<htmlEmbedCode><![CDATA[<<object width="640" height="385"><param name="movie" value="http://digitalzoomstudio.net/misc/videogallery/preview.swf"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="base" value="http://digitalzoomstudio.net/misc/videogallery/"></param><embed src="http://digitalzoomstudio.net/misc/videogallery/preview.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385" base="http://digitalzoomstudio.net/misc/videogallery/"></embed></object>]]></htmlEmbedCode> 
+	  
+ 
+<shuffleOnStart>off</shuffleOnStart> 
+<design_only_bigplay>on</design_only_bigplay>
+<design_overlayControls>on</design_overlayControls>
+ 
+</settings> 
+ 
+ 
+ 
+ 
+<!--you have no use for this if <shareButton> is off--> 
+<socialItem icon='icons/1.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/2.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/3.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/4.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/5.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/6.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/7.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/8.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+<socialItem icon='icons/9.png' link='http://activeden.net/user/ZoomIt' tooltip='Share via Facebook'></socialItem> 
+ 
+ 
+ 
+ 
+<item>
+<source>video/test.mp4</source><!--input here path to the video or video id (if type is vimeo or youtube)-->
+<!--input here path to the video or video id (if type is vimeo or youtube)-->
+<thumb>thumbs/pages1.jpg</thumb><!--thumb that will appear in the menu-->
+<title>Pages</title><!--title that will appear in the menu-->
+<description><![CDATA[dadar]]></description><!--description that will appear in the video area, leave blank if  you don't want it-->
+<menuDescription>AE Project by Generator</menuDescription><!--description that will appear in the menu-->
+<type>video</type><!--type - youtube/normal/vimeo-->
+<html5sourceogg>video/test.ogv</html5sourceogg><!--if you use the html5 gallery -->
+</item>
+ 
+</content>

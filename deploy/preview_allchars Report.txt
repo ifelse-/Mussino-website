@@ -1,0 +1,111 @@
+preview_allchars.swf Movie Report
+----------------------------------
+
+Metadata
+--------
+Bytes    Value
+-----    -----
+  637    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash CS4 Professional</xmp:CreatorTool> <xmp:CreateDate>2011-07-30T02:48:59+03:00</xmp:CreateDate> <xmp:MetadataDate>2012-02-18T13:40:47+02:00</xmp:MetadataDate> <xmp:ModifyDate>2012-02-18T13:40:47+02:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:E55AC4543DBAE0119A41DC68610D90CE</stRef:instanceID> <stRef:documentID>xmp.did:E55AC4543DBAE0119A41DC68610D90CE</stRef:documentID> <stRef:originalDocumentID>xmp.did:E55AC4543DBAE0119A41DC68610D90CE</stRef:originalDocumentID> </xmpMM:DerivedFrom> <xmpMM:DocumentID>xmp.did:87EA4558255AE11197F18EEB20AA0585</xmpMM:DocumentID> <xmpMM:InstanceID>xmp.iid:87EA4558255AE11197F18EEB20AA0585</xmpMM:InstanceID> <xmpMM:OriginalDocumentID>xmp.did:E55AC4543DBAE0119A41DC68610D90CE</xmpMM:OriginalDocumentID> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          91975          91975    Scene 1 (AS 3.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                 69456
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+fullbg                                 0             0                     0
+playpausebg                           18             0                     0
+volbg                                  0             0                     0
+vimeofullscreenbtn                     0             0                     0
+ad_image_close_mc                     28            30                     0
+ad_image_bg                           31             0                     0
+ad_image                               0             0                     0
+buttonthumb                            0             0                     0
+hscrollbar                             0             0                     0
+copymcwp                               0             0                     0
+sharescreenbg                          0             0                     0
+sharescreen                            0             0                     0
+buttonrightbar                        17             0                     0
+buttondownbar                         19             0                     0
+button                                 0           111                     0
+videogallery                           0             0                     0
+buttonbg                              20             0                     0
+twitterbg                             34             0                     0
+socialtooltip                         17            80                     0
+bg                                    19             0                     0
+scrubbarbg                            30             0                     0
+scrubberbg                            32             0                     0
+scrubberbuf                            0             0                     0
+scrubberprog                           0             0                     0
+rollovericon                          31            78                     0
+scrubber                               0             0                     0
+scrubbar                               0            99                     0
+volammount                            16             0                     0
+volicon                               58             0                     0
+gonevolume                            16             0                     0
+zoomsliderslider                      16             0                     0
+volslider                             30             0                     0
+volslidermasker                       18             0                     0
+scrubbarvol                            0             0                     0
+fullicon                              51             0                     0
+scrubbarfull                           0             0                     0
+playicon                               0             0                     0
+pauseicon                             21             0                     0
+playpausebtn                          18             0                     0
+scrubbarfulli                          0             0                     0
+scrubbarinfo                           0             0                     0
+replayicon                            66             0                     0
+replaybtn                             29             0                     0
+nextbtnicon                           29             0                     0
+nextbtn                               30             0                     0
+bufferinganim                          0            71                     0
+buffering                             18            32                     0
+videoplayer                            0             0                     0
+scrollbarbg                           41             0                     0
+scrollbarhead                         49             0                     0
+scrollbar                              0             0                     0
+scrollbarhead copy                    39             0                     0
+hscrollbar                             0             0                     0
+scroller                               0             0                     0
+embedbtnbtnbg                          0             0                     0
+embedbtnbtn                            0            56                     0
+arrowleft                             18             0                     0
+copymc                                 0            96                     0
+embedwindow                           20            34                     0
+embedbtn                               0             0                     0
+sharebtnbg                             0             0                     0
+sharebtn                             133            29                     0
+hdbtnbg                               18             0                     0
+hdbtnicon                              0            26                     0
+hdbtn                                  0             0                     0
+auxamfloader                          61             0                     0
+auxloader                              0             0                     0
+loader                                 0             0                     0
+infoboxbg                              0             0                     0
+infobox                                0            97                     0
+titlebg                               20             0                     0
+infobox4title                          0            86                     0
+
+
+Tweened Shapes: 202 bytes
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+04b08 Bold                      305    .BEFGINRU
+Arial-BoldMT Bold              2710    
+ArialMT                        2713    
+Aller-BoldItalic Bold Italic      178    DH
+MVBoli                          259    /<>
+Aller-Bold Bold                9174     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript Bytes    Location
+------------------    --------
+             69456    Scene 1:Frame 1
+
+
+
+

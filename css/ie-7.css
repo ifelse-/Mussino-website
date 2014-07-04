@@ -1,0 +1,20 @@
+.blue-btn-1, 
+.gray-btn-1,
+.green-btn-1,
+.orange-btn-1 { float:left;}
+
+
+.right-col .right-col_wrapper .title { line-height:normal; padding:0 10px 0 10px; height:38px; line-height:38px;}
+.right-col .right-col_wrapper .title .gray-btn-1 { margin:10px 5px 0 0;}
+
+.footer-container .footer-wrapper .footer-box .footer-box_title .footer-box_wrap-2 { padding:0 10px 0 10px; height:40px; line-height:40px;}
+.footer-container .footer-wrapper .footer-box .footer-box_title .footer-box_wrap-2 .green-btn-1,
+.footer-container .footer-wrapper .footer-box .footer-box_title .footer-box_wrap-2 .orange-btn-1,
+.footer-container .footer-wrapper .footer-box .footer-box_title .footer-box_wrap-2 .blue-btn-1,
+.footer-container .footer-wrapper .footer-box .footer-box_title .footer-box_wrap-2 .gray-btn-1 { margin:10px 5px 0 0;}
+
+.header-container .search-wrapper .search .search-row .fl input { background:#FFFFFF; border:none;}
+.header-container .search-wrapper .search .search-row .fr select { border:none;}
+
+.pro-wrapper .pro-box_wrapper .btn-row .blue-btn-2 { display:inline;}
+

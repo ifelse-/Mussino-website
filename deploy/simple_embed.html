@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>Video / Youtube Player / AS3</title><link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/defaultblack/style.css"></head>
+
+<body>
+
+<div id="content_wrapper">
+<div id="content">
+
+
+<h3>Designing a custom skin for this gallery - from default skin</h3><hr>
+<br>
+<h3>Part 1</h3><hr>
+<p>
+<object type="application/x-shockwave-flash" data="preview.swf" width="915" height="360" id="flashcontent" style="visibility: visible; "><param name="movie" value="preview.swf"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><param name="scale" value="noscale"><param name="allowFullScreen" value="true"><param name="wmode" value="opaque"><param name="flashvars" value="xml=xml/gallery2.xml">
+</object>
+
+<object type="application/x-shockwave-flash" data="http://greenlightdesignstudios.com/bagent/vid-gallery/deploy/preview.swf" width="506" height="270" id="flashcontent" style="visibility: visible; "><param name="movie" value="http://greenlightdesignstudios.com/bagent/vid-gallery/deploy/preview.swf"><param name="menu" value="false"><param name="allowScriptAccess" value="always"><param name="scale" value="noscale"><param name="allowFullScreen" value="true"><param name="wmode" value="opaque"><param name="flashvars" value="video=http://greenlightdesignstudios.com/bagent/artists/Ginuwine/ELGIN.m4v">
+</object>
+
+<object type="application/x-shockwave-flash" data="http://digitalzoomstudio.net/ygallery/preview.swf" width="915" height="360" id="flashcontent" style="visibility: visible; "><param name="movie" value="http://digitalzoomstudio.net/ygallery/preview.swf"><param name="menu" value="false"><param name="base" value="http://digitalzoomstudio.net/ygallery/"><param name="allowScriptAccess" value="always"><param name="scale" value="noscale"><param name="allowFullScreen" value="true"><param name="wmode" value="opaque"></object>
+<object width="640" height="385"><param name="movie" value="http://localhost/ygallery/deploy/preview.swf"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="base" value="http://localhost/ygallery/deploy/"></param><embed src="http://localhost/ygallery/deploy/preview.swf" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385" base="http://localhost/ygallery/deploy/"></embed></object>
+</p>
+<h3>How did I include this video player into the page?</h3><hr>
+<p>Well I used the same video gallery you saw eaarlier, gave it a
+single video and it automatically transformed in a video player. For
+this particular implementation in my html page I used no plugins, I
+just copied and pasted the upcoming code. That is all. It should work
+for you too after purchase provided you have the swf in the same folder. <a href="#" onClick="flashcontent.pauseVideo();">Pause Video</a></p>
+<div class="code">&lt;object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="780" height="420"&gt;<br>
+&lt;param name="movie" value="preview.swf?video=wVIRQQs6NXc&amp;types=youtube" /&gt;<br>
+&lt;param name="allowFullScreen" value="true"/&gt;<br>
+&lt;param name="allowScriptAccess" value="always"/&gt;<br>
+&lt;param name="wmode" value="transparent"/&gt;<br>
+&lt;!--[if !IE]&gt;--&gt;<br>
+&lt;object type="application/x-shockwave-flash"
+data="preview.swf?video=wVIRQQs6NXc&amp;types=youtube" width="815"
+height="420" allowFullScreen="true" allowScriptAccess="always"
+wmode="transparent"&gt;<br>
+&lt;!--&lt;![endif]--&gt;<br>
+&lt;p&gt;Alternative content&lt;/p&gt;<br>
+&lt;!--[if !IE]&gt;--&gt;<br>
+&lt;/object&gt;<br>
+&lt;!--&lt;![endif]--&gt;<br>
+&lt;/object&gt;</div>
+
+<h3>Part 2</h3><hr>
+<p>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="420" width="780">
+        <param name="movie" value="preview.swf?video=wMqECv08q90&amp;types=youtube">
+        <param name="allowFullScreen" value="true">
+        <param name="allowScriptAccess" value="always">
+        <param name="wmode" value="opaque">
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="preview_skin_overlay.swf?video=wMqECv08q90&amp;types=youtube" allowfullscreen="true" allowscriptaccess="always" wmode="transparent" height="150" width="200">
+        <!--<![endif]-->
+          <p>Alternative content</p>
+        <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+</object>
+      </p>
+
+
+</div>
+</div>
+
+</body></html>

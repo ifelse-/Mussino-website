@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	
+	<width value="640"/>
+	<height value="360"/>
+	
+	<outsize_stroke_size value="3"/>
+	<outside_stroke_color value="0xffffff"/>
+	<outside_stroke_alpha value="0.1"/>
+	<main_background_color value="0x272727"/>
+	
+	<loader_text_hidden value="off"/>
+	<loader_text value="LOADING"/>
+	<loader_shape_color value="0xb8b8b8"/>
+	<loader_text_color value="0x3d3d3d"/>
+	
+	<playlist value="on"/>
+	<!-- If the playlist is set to off then the player will get the next variables for preview, sound and info. --> 
+<!--	<no_playlist_mp3_preview value="content/previews/1.jpg"/>-->
+	<no_playlist_mp3_source value="products/small_video/1398746627KABHI KABHI - DIALOGUE.mp3"/>
+	<no_playlist_mp3_info><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></no_playlist_mp3_info>
+	
+	<playlist_title value="Audio Playlist:"/>
+	<playlist_header_background_color value="0x2a2a2a"/>
+	<playlist_header_background_alpha value="1"/>
+	<playlist_thumbs_background_color value="0x000000"/>
+	<playlist_thumbs_background_alpha value="1"/>
+	<playlist_header_title_color value="0xcccccc"/>
+	<playlist_shuffle_button_hidden value="off"/>
+	<playlist_shuffle_tooltip_string value="TOGGLE SHUFFLE ON"/>
+	<playlist_shuffle_tooltip_selected_string value="TOGGLE SHUFFLE OFF"/>
+	<playlist_repeat_button_hidden value="off"/>
+	<playlist_repeat_tooltip_string value="TOGGLE REPEAT ON"/>
+	<playlist_repeat_tooltip_selected_string value="TOGGLE REPEAT OFF"/>
+	<playlist_close_button_hidden value="off"/>
+	<playlist_close_button_text value="CLOSE"/>
+	<playlist_button_tooltip_hidden value="off"/>
+	<playlist_close_button_tooltip_string value="CLOSE PLAYLIST"/>
+	<playlist_button_tooltip_background_color value="0x000000"/>
+	<playlist_button_tooltip_text_color value="0xbababa"/>
+	<playlist_button_stroke_color value="0x414141"/>
+	<playlist_button_stroke_over_color value="0x5f5f5f"/>
+	<playlist_button_fill_color value="0x000000"/>
+	<playlist_button_icon_color value="0x646464"/>
+	<playlist_button_icon_over_color value="0xcdcdcd"/>
+	<playlist_button_icon_selected_color value="0x37a5e1"/>
+	<playlist_close_on_select_sound value="off"/>
+	<!--<playlist_default_thumb value="content/thumbs/default.png"/>
+	<playlist_default_preview value="content/previews/default.png"/>
+	-->
+	<playlist_thumb_width value="78"/>
+	<playlist_thumb_height value="78"/>
+	<playlist_thumb_stroke_size value="2"/>
+	<playlist_thumb_stroke_color value="0x333333"/>
+	<playlist_thumb_stroke_over_color value="0xffffff"/>
+	<playlist_thumb_stroke_selected_color value="0x8fc2e2"/>
+	<playlist_thumb_over_zoom value="10"/>
+	<playlist_moving_motion_blur value="100"/>
+	<playlist_thumb_show_description value="mouseover"/> <!-- The playlist thumb description can be visible all the time(on), on mouse over(mouse over) or cannot be visible(off). --> 
+	<playlist_thumb_description_background_color value="0x000000"/>
+	<playlist_thumb_description_background_alpha value="0.9"/>
+	<playlist_thumb_description_text_color value="0xffffff"/>
+	
+	<display_background_hidden value="off"/>
+	<display_background_color value="0x000000"/>
+	<display_button_fill_color value="0x000000"/>
+	<display_button_fill_alpha value="0.65"/>
+	<display_button_fill_over_alpha value="0.8"/>
+	<display_button_stroke_color value="0x000000"/>
+	<display_button_stroke_alpha value="0.2"/>
+	<display_button_stroke_over_alpha value="0.2"/>
+	<display_button_icon_color value="0xdbdbdb"/>
+	<display_button_icon_over_color value="0xffffff"/>
+	<display_button_text_color value="0x8d8d8d"/>
+	<display_button_text_hidden value="on"/>
+	<display_play_button_text value="PLAY"/>
+	<display_replay_button_text value="REPLAY"/>
+	<display_next_button_text value="NEXT"/>
+	<display_previous_button_text value="PREV"/>
+	<display_next_previous_buttons_hidden value="on"/>
+	<display_title_gradient_begin_color value="0x262626"/>
+	<display_title_gradient_end_color value="0x000000"/>
+	<display_title_gradient_alpha value="0.85"/>
+	<display_title_always_show value="off"/>
+	<display_title_autohide_time value="5"/>
+	<display_slideshow_time value="3"/>
+	
+	<display_oscilloscope_color value="0x40acd4"/>
+	<display_oscilloscope_thickness value="3"/>
+	<display_oscilloscope_glow_color value="0x12d0ff"/>
+	<display_oscilloscope_blur_color value="0x40acd4"/>
+	<display_oscilloscope_waves_number value="50"/>
+	<display_oscilloscope_background value="content/visualization/background.png"/>
+	<!-- You can set the oscilloscope number of waves up to 512; If you will set it to 0, will take the default value(512).-->
+	
+	<display_spectrum_gradient_begin_color value="0x7bdfff"/>
+	<display_spectrum_gradient_end_color value="0x069ccb"/>
+	<display_spectrum_bar_width value="20"/>
+	<display_spectrum_bar_distance value="2"/>
+	<dispaly_spectrum_size_boosting value="6"/>
+	<display_spectrum_background value="content/visualization/background.png"/>
+	
+	<start_buffering_on_load value="off"/>
+	<start_playback_on_load value="off"/>
+	<!-- If start playback is set to on, then start buffering will be automatically to on too. --> 
+	<start_playback_on_user_interaction value="off"/>
+	<buffer_size value="5"/>
+	<display_scale value="touchoutside"/> <!-- This can have the next value : original, touchinside, touchoutside and stretch. --> 
+	<display_visualizer value="oscilloscope"/> <!-- This can have the next value : art, oscilloscope and spectrum. --> 
+	<on_finish_sound_action value="playlist"/> <!-- This can be stop, next(go to next song from the playlis), previous(go to previous song from the playlist), repeat(to repeat the current song) or playlist(to open the playlist) --> 
+<!--	
+	<controllers_background_height value="50"/>
+	<controllers_background_begin_color value="0x262626"/>
+	<controllers_background_end_color value="0x000000"/>
+	<controllers_background_alpha value="0.85"/>
+	<controllers_buttons_tooltip_hidden value="off"/>
+	<controllers_next_previous_buttons_hidden value="off"/>
+	<controllers_next_tooltip_string value="NEXT SONG"/>
+	<controllers_previous_tooltip_string value="PREVIOUS SONG"/>
+	<controllers_replay_button_hidden value="off"/>
+	<controllers_replay_tooltip_text value="REPLAY SONG"/>
+	<controllers_volume_button_hidden value="off"/>
+	<controllers_visualizer_button_hidden value="off"/>
+	<controllers_visualizer_art_tooltip_text value="VIEW : ALBUM ART"/>
+	<controllers_visualizer_oscilloscope_tooltip_text value="VIEW : OSCILLOSCOPE"/>
+	<controllers_visualizer_spectrum_tooltip_text value="VIEW : SPECTRUM"/>
+	<controllers_playlist_button_hidden value="off"/>
+	<controllers_playlist_tooltip_text value="OPEN PLAYLIST"/>
+	<controllers_playlist_selected_tooltip_text value="CLOSE PLAYLIST"/>
+	<controllers_button_stroke_color value="0x494949"/>
+	<controllers_button_stroke_over_color value="0x494949"/>
+	<controllers_button_fill_color value="0x000000"/>
+	<controllers_button_icon_color value="0x646464"/>
+	<controllers_button_icon_over_color value="0xcdcdcd"/>
+	<controllers_button_tooltip_background_color value="0x000000"/>
+	<controllers_button_tooltip_text_color value="0xbababa"/>-->
+	
+	<volume_slider_background_stroke_color value="0x646464"/>
+	<volume_slider_background_stroke_alpha value="0.5"/>
+	<volume_slider_background_fill_color value="0x000000"/>
+	<volume_slider_background_fill_alpha value="0.8"/>
+	<volume_slider_shape_stroke_color value="0x383a3b"/>
+	<volume_slider_shape_fill_color value="0x000000"/>
+	<volume_slider_button_begin_color value="0x0095cd"/>
+	<volume_slider_button_end_color value="0x1c4471"/>
+	<volume_slider_lines_shape_color value="0x313131"/>
+	<volume_slider_icon_color value="0xc4c4c4"/>
+	<volume_slider_mute_string value="MUTE"/>
+	<volume_slider_text_color value="0xc4c4c4"/>
+	<volume_slider_initial_percent value="80"/>
+	
+	<progress_bar_background_color value="0x3c3c3c"/>
+	<progress_bar_shape_color value="0x000000"/>
+	<progress_bar_lines_color value="0x313131"/>
+	<progress_bar_download_color value="0x595959"/>
+	<progress_bar_time_begin_color value="0x0095cd"/>
+	<progress_bar_time_end_color value="0x1c4471"/>
+	<progress_bar_time_text_color value="0xbababa"/>
+	<progress_bar_duration_text_color value="0xffffff"/>
+	<progress_bar_icon_color value="0xc4c4c4"/>
+	<progress_bar_tooltip_hidden value="off"/>
+	<progress_bar_tooltip_jump_string value="JUMP"/>
+	<progress_bar_tooltip_background_color value="0x555555"/>
+	<progress_bar_tooltip_time_color value="0xffffff"/>
+	<progress_bar_tooltip_jump_color value="0xbababa"/>
+	
+	<controllers_autohide value="on"/>
+	<controllers_autohide_time value="3"/>
+	<controllers_move_outside_display value="off"/>
+	
+	<right_click_options value="on"/>
+	<right_click_next_previous value="on"/>
+	<right_click_next_string value="next song"/>
+	<right_click_previous_string value="previous song"/>
+	<right_click_copyright value="on"/>
+	<right_click_copyright_string value=""/>
+	<right_click_copyright_link value=""/>
+	
+</settings>

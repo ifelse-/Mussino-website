@@ -1,0 +1,123 @@
+<?php
+ob_start(); 
+require_once "config/functions.inc.php"; 
+require_once "session.inc.php"; 
+$sql_default = "SELECT * FROM default_video_master WHERE Status =1 AND Video_Id=1";
+$result_default = mysql_query($sql_default);
+$colles_default = mysql_fetch_array($result_default);
+$sqlMemberShip = "SELECT * FROM membership_artist_upgrade_history_master WHERE Member_Account_Id='".$_SESSION['SESS_ID']."' AND Status=1";
+$resultMemberShip = mysql_query($sqlMemberShip);
+$collesMemberShip = mysql_fetch_array($resultMemberShip);
+$sqlTextLyrics = "SELECT * FROM lyrics_post_master WHERE Product_Id='".$_GET['id']."' AND Status=1 AND Member_Account_Id='".$_SESSION['SESS_ID']."'";
+$resTextLyrics = mysql_query($sqlTextLyrics);
+$collesTextLyrics = mysql_fetch_array($resTextLyrics);
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title>Create Session</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Default Description">
+<meta name="keywords" content="">
+<meta name="robots" content="">
+
+
+<?php include "common.inc.php"; ?>
+<script language="JavaScript" src="http://mussino.com/servertime.php"></script>
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<script type="text/javascript">
+  $(document).ready(function(){
+	try{
+	$("#viewComments").fancybox({
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+	
+	$("#variousDownload").fancybox({
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});	
+	$("#variousAudioUpload").fancybox({
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+	$("#variousVideoUpload").fancybox({
+				'overlayShow'	: true,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+	}catch(e){}
+			
+});
+</script>
+<script type="text/javascript" src="Scripts/AC_RunActiveContent.js"></script>
+
+<!-- HOW TO PACKAGE -->
+<link rel="stylesheet" type="text/css" href="howto/css/howto.css" />
+<!--<script src="howto/js/jquery-1.7.1.min.js"></script>-->
+<script src="howto/js/jquery.scrollTo-min.js"></script>
+<script src="howto/js/jquery.scrollTo.js"></script>
+<script src="howto/js/howto.js"></script>
+
+<script language="javascript" type="text/javascript" src="javascript/searchbox.js"></script>
+<script language="javascript" type="text/javascript">jQuery(function() {setupSearchBox('formname', 'http://www.macmillandictionary.com/', 'british'); });</script>
+
+ <!--<script language="javascript" src="send_to_friend/popup.php?js" type="text/javascript"></script>-->
+
+<!-- / HOW TO PACKAGE -->
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=425241944196603";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+FB.ui(
+  {
+    method: 'feed',
+    name: 'Facebook Dialogs',
+    link: 'https://developers.facebook.com/docs/reference/dialogs/',
+    picture: 'http://fbrell.com/f8.jpg',
+    caption: 'Reference Documentation',
+    description: 'Dialogs provide a simple, consistent interface for applications to interface with users.'
+  },
+  function(response) {
+    if (response && response.post_id) {
+      alert('Post was published.');
+    } else {
+      alert('Post was not published.');
+    }
+  }
+);
+
+</script>
+
+</head>
+
+<body>
+<script type="text/javascript" src="wz_tooltip.js"></script>
+<?php include "header.middle.inc.php"; ?>
+<div id="wrapper">
+
+
+
+
+<div class="content-container">
+<?php include "header.top.inc.php"; ?>
+<?php include "create-session-middle.php"; ?>
+</div>
+</div>
+</div>
+<?php include "footer.inc.php"; ?>
+
+ 
+</body>
+</html>
