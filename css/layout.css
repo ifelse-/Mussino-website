@@ -269,7 +269,7 @@ background-position: 36% 98%;}
 .top-nav ul li a { color: #FFF; display:block; padding:5px 19px; font-size:14px;  font-family: "Aller Light", Arial; font-weight: bold;   
 }
 
-.header-container .top-nav ul li .sub-nav { display:none; text-align:left; position:absolute; background: #CCC; left:0; width:180px; /*padding:10px 10px 10px 10px;*/ 
+.header-container .top-nav ul li .sub-nav { display:none; text-align:left; position:absolute; background: #000; left:0; width:150px; /*padding:10px 10px 10px 10px;*/ 
 
 }
   
@@ -277,12 +277,11 @@ background-position: 36% 98%;}
 }
 .header-container .top-nav ul li .sub-nav ul li a { background:url(../images/border-3.gif) left bottom repeat-x;  display:block; padding:0 0 5px 5px; position:relative; color:#fff; font-weight:bold;}
 .header-container .top-nav ul li .sub-nav ul li a span { background:url(../images/bullet-1.png) left 3px no-repeat; display:block; padding:0 0 0 10px; position:relative; z-index:11;}
-.header-container .top-nav ul li .sub-nav ul li:hover { background: #000;
-border-bottom-right-radius: 50px;
-border-top-right-radius: 50px;
+.header-container .top-nav ul li .sub-nav ul li:hover { background: #333;
+
 width:130px;
 }
-.header-container .top-nav ul li .sub-nav ul li:hover a { color: #FFF; text-decoration:none; }
+.header-container .top-nav ul li .sub-nav ul li:hover a {text-decoration:none; color:#09C;}
 
 
 /*===========<<< Content Area >>>===========*/
@@ -436,7 +435,7 @@ border-radius: 10px;
 	
 	 margin-left: 12px;
 	background:url(../images/credit_box.png) no-repeat;
-	border: 1px solid #999;}
+	}
 
 .creditImg {
 	margin-left: 280px;
@@ -2671,6 +2670,42 @@ border-radius: 15px;}
 	background-color:#F00;}	  
 
 #scroll-button { display:none;}
+
+
+.content-info-copy {
+	margin:60px 0;
+	font-size:16px;}
+	
+.content-info-copy p{
+	margin-top:20px;}	
+	
+.content-info-copy strong {
+	font-size:30px;
+	padding-top: 16px;
+	display:block;}	
+	
+.content-info-copy span{
+	color:#900;}
+	
+.content-info-copy .numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #390;
+    color: #fff;
+    text-align: center;
+	margin: 10px;
+	float:left;
+    font: bold 32px Arial,sans-serif;
+}		
+
+.content-info-copy div {
+clear:both;
+margin-bottom: 44px;
+}
 
 //MISC /////
 

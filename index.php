@@ -109,73 +109,24 @@
 							</li>
 						<li>
 								<div class="icon color"><i class="icon-file-text-alt"></i></div>
-								<div class="title"><h3 class="color">How I Earn?</h3></div>
+                                
+								<div class="title"><h3 class="color">Create & Record Music</h3></div>
 								<img src="front_theme/img/music_sounds_beats.jpg" alt="" />
-								<div class="news" 
-									data-news-details='[{
-										"date":"24<br/>Sep",
-										"title":"Lorem ipsum dolor sit amet",
-										"img":"http://placehold.it/673x444",
-										"txt":[
-											{
-												"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-											},
-											{
-												"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend.",
-												"img":"http://placehold.it/281x239"
-											},
-											{
-												"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-											},
-											{
-												"title":"Watch the best moments from last night concert",
-												"txt":"Example of Vimeo embed video",
-												"vimeo":"http://player.vimeo.com/video/74972181"
-											},
-											{
-												"title":"Watch the best moments from last night concert",
-												"txt":"Example of YouTube embed video",
-												"youtube":"http://www.youtube.com/embed/1iIZeIy7TqM"
-											}]
-								}]'>
-									<button class="btn btn-dark btn-only-icon open-overlay" data-overlay-id="news-overlay"><i class="icon-chevron-right"></i></button>
-									<a href="" class="open-overlay" data-overlay-id="news-overlay">Do you like to make music?</a>
+								<div class="news">
+									<a href="/about.php"><button class="btn btn-dark btn-only-icon"><i class="icon-chevron-right"></i></button></a>
+									<a href="/about.php" class="open-overlay" data-overlay-id="news-overlay">Do you like to make music?</a>
 									<div class="time">Enter or Create music recording sessions</div>
 								</div>
 							</li>
+                            
 							<li>
 								<div class="icon color"><i class="icon-file-text-alt"></i></div>
 								<div class="title"><h3 class="color">How it works?</h3></div>
 								<img src="front_theme/img/music_beats.jpg" alt="" />
-								<div class="news" 
-									data-news-details='[{
-										"date":"24<br/>Sep",
-										"title":"Lorem ipsum dolor sit amet",
-										"img":"http://placehold.it/673x444",
-										"txt":[
-											{
-												"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-											},
-											{
-												"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend.",
-												"img":"http://placehold.it/281x239"
-											},
-											{
-												"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-											},
-											{
-												"title":"Watch the best moments from last night concert",
-												"txt":"Example of Vimeo embed video",
-												"vimeo":"http://player.vimeo.com/video/74972181"
-											},
-											{
-												"title":"Watch the best moments from last night concert",
-												"txt":"Example of YouTube embed video",
-												"youtube":"http://www.youtube.com/embed/1iIZeIy7TqM"
-											}]
-								}]'>
-									<button class="btn btn-dark btn-only-icon open-overlay" data-overlay-id="news-overlay"><i class="icon-chevron-right"></i></button>
-									<a href="" class="open-overlay" data-overlay-id="news-overlay">Upload beats or Record music</a>
+								<div class="news">
+									<a href="/howitworks.php"><button class="btn btn-dark btn-only-icon "><i class="icon-chevron-right"></i></button></a>
+                                    
+									<a href="/howitworks.php" class="open-overlay" data-overlay-id="news-overlay">Upload beats or Record music</a>
 									<div class="time">7 days music contest</div>
 								</div>
 							</li>
@@ -194,222 +145,7 @@
 	</section>
 	<!-- END HOME SECTION -->
 	
-	<!-- Begin News/Blog Page Overlay -->
-	<!--<div class="page-overlay" id="news-overlay"> 
-		<i class="icon-remove-circle close-overlay"></i>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="center">Last News</h1>
-				</div>
-				<div class="col-sm-7">
-					<div id="news-img-wrap">
-						<div class="date"></div>
-						<div class="title"><h3 class="color"></h3></div>
-					</div>
-					<div id="news-txt">
-						
-					</div>
-				</div>
-				<div class="col-sm-4 col-sm-offset-1">
-					<h3 class="color"><i class="icon-file-text-alt"></i> Other News:</h3>
-					<div class="other-news-wrap">
-						<ul id="other-news">
-							<li data-news-details='[{
-									"date":"30<br/>Sep",
-									"title":"Suscipit lectus",
-									"img":"http://placehold.it/673x444",
-									"txt":[
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend."
-										},
-										{
-											"img":"http://placehold.it/281x239"
-										},
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"title":"Watch the best moments from last night concert",
-											"txt":"Example of Vimeo embed video",
-											"vimeo":"http://player.vimeo.com/video/74972181"
-										}]
-							}]'>
-								<div class="other-news-img-wrap">
-									<div class="date">30<br/>Sep</div>
-									<img src="http://placehold.it/146x146" alt="" />
-								</div>
-								<div class="other-news-details">
-									<h4>Suscipit lectus</h4>
-									<p>Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus.</p>
-								</div>
-							</li>
-							<li data-news-details='[{
-									"date":"29<br/>Sep",
-									"title":"Suscipit lectus",
-									"img":"http://placehold.it/673x444",
-									"txt":[
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend."
-										},
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"title":"Watch the best moments from last night concert",
-											"txt":"Example of Vimeo embed video",
-											"vimeo":"http://player.vimeo.com/video/74972181"
-										}]
-							}]'>
-								<div class="other-news-img-wrap">
-									<div class="date">29<br/>Sep</div>
-									<img src="http://placehold.it/146x146" alt="" />
-								</div>
-								<div class="other-news-details">
-									<h4>Lorem ipsum dolor sit amet</h4>
-									<p>Metus sit amet lorem pellentesque, et suscipit lectus tempus aliquam dui neque venenatis.</p>
-								</div>
-							</li>
-							<li data-news-details='[{
-									"date":"28<br/>Sep",
-									"title":"Lorem ipsum dolor sit amet",
-									"img":"http://placehold.it/673x444",
-									"txt":[
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend.",
-											"img":"http://placehold.it/281x239"
-										},
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"title":"Watch the best moments from last night concert",
-											"txt":"Example of Vimeo embed video",
-											"vimeo":"http://player.vimeo.com/video/74972181"
-										}]
-							}]'>
-								<div class="other-news-img-wrap">
-									<div class="date">28<br/>Sep</div>
-									<img src="http://placehold.it/146x146" alt="" />
-								</div>
-								<div class="other-news-details">
-									<h4>Lorem ipsum dolor sit amet</h4>
-									<p>Metus sit amet lorem pellentesque, et suscipit lectus tempus aliquam dui neque venenatis.</p>
-								</div>
-							</li>
-							<li class="disabled"
-								data-news-details='[{
-									"date":"27<br/>Sep",
-									"title":"Lorem ipsum dolor sit amet",
-									"img":"http://placehold.it/673x444",
-									"txt":[
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend.",
-											"img":"http://placehold.it/281x239"
-										},
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"title":"Watch the best moments from last night concert",
-											"txt":"Example of Vimeo embed video",
-											"vimeo":"http://player.vimeo.com/video/74972181"
-										}]
-							}]'>
-								<div class="other-news-img-wrap">
-									<div class="date">27<br/>Sep</div>
-									<img src="http://placehold.it/146x146" alt="" />
-								</div>
-								<div class="other-news-details">
-									<h4>Lorem ipsum dolor sit amet</h4>
-									<p>Metus sit amet lorem pellentesque, et suscipit lectus tempus aliquam dui neque venenatis.</p>
-								</div>
-							</li>
-							<li class="disabled"
-								data-news-details='[{
-									"date":"26<br/>Sep",
-									"title":"Lorem ipsum dolor sit amet",
-									"img":"http://placehold.it/673x444",
-									"txt":[
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend.",
-											"img":"news_img2.jpg"
-										},
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"title":"Watch the best moments from last night concert",
-											"txt":"Example of Vimeo embed video",
-											"vimeo":"http://player.vimeo.com/video/74972181"
-										}]
-							}]'>
-								<div class="other-news-img-wrap">
-									<div class="date">26<br/>Sep</div>
-									<img src="http://placehold.it/146x146" alt="" />
-								</div>
-								<div class="other-news-details">
-									<h4>Lorem ipsum dolor sit amet</h4>
-									<p>Metus sit amet lorem pellentesque, et suscipit lectus tempus aliquam dui neque venenatis.</p>
-								</div>
-							</li>
-							<li class="disabled"
-								data-news-details='[{
-									"date":"25<br/>Sep",
-									"title":"Lorem ipsum dolor sit amet",
-									"img":"http://placehold.it/673x444",
-									"txt":[
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.<br/><br/>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"quote":"Vivamos odio augue, <span>aliquet eget</span> hendrerit nec, tempus sit amet lacus. Nunc suscipit nisl eu elit <span>mollis sit amet</span> fringilla elit eleifend.",
-											"img":"news_img2.jpg"
-										},
-										{
-											"txt":"Fusce imperdiet metus sit amet lorem pellentesque, et suscipit lectus tempus. Aliquam dui neque, venenatis a convallis eu, sodales vitae justo. Donec nec neque purus. Sed sed nisi vestibulum, mollis ligula vel sem nulla faucibus ante.</p><p>Morbi feugiat urna quis nulla sodales molestie ac vitae elit. Morbi risus lectus, volutpat nec sagittis vitae, mollis et nisi. Curabitur vel neque vitae diam dapibus semper a sit amet urna. Nullam cursus velit justo. Nullam euismod, arcu sit amet semper sagittis, sem nulla faucibus ante, vitae adipiscing mi metus faucibus sapien. Nulla dictum eget metus et gravida. Donec vulputate mi ac facilisis fringilla. Proin scelerisque lorem dictum tincidunt iaculis."
-										},
-										{
-											"title":"Watch the best moments from last night concert",
-											"txt":"Example of Vimeo embed video",
-											"vimeo":"http://player.vimeo.com/video/74972181"
-										}]
-							}]'>
-								<div class="other-news-img-wrap">
-									<div class="date">25<br/>Sep</div>
-									<img src="http://placehold.it/146x146" alt="" />
-								</div>
-								<div class="other-news-details">
-									<h4>Lorem ipsum dolor sit amet</h4>
-									<p>Metus sit amet lorem pellentesque, et suscipit lectus tempus aliquam dui neque venenatis.</p>
-								</div>
-							</li>
-						</ul>
-						<div class="center"><button id="load-more-btn" class="btn btn-dark2">Load More</button></div>
-					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="loading"></div>
-		<div class="progress"></div>
-	</div>-->
-	<!-- End News/Blog Page Overlay -->
-	
+    
 	<!-- BEGIN THE BAND SECTION -->
 	<section id="theband">
 		<div class="container">
@@ -589,55 +325,6 @@
 	
 
 	
-	<!-- BEGIN STORE SECTION 
-	<section id="store">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<h1 class="section-title center">Beat Store</h1>
-				</div>
-			</div>
-		</div>
-		
-		<div class="flexslider">
-			<ul class="slides">
-				<li>
-					<img src="http://placehold.it/429x428" alt="" />
-					<h3 class="color">Beat - New Album</h3>
-					<h2>$29</h2>
-					<a href="#" class="btn btn-default btn-icon"><i class="icon-shopping-cart"></i><span>Buy Now!</span></a>
-				</li>
-				<!--<li>
-					<img src="http://placehold.it/429x428" alt="" />
-					<h3 class="color">Beat T-Shirt - White Version</h3>
-					<h2>$10</h2>
-					<a href="#" class="btn btn-default btn-icon"><i class="icon-shopping-cart"></i><span>Buy Now!</span></a>
-				</li>
-				<li>
-					<img src="http://placehold.it/504x428" alt="" />
-					<h3 class="color">Beat Mug</h3>
-					<h2>$7</h2>
-					<a href="#" class="btn btn-default btn-icon"><i class="icon-shopping-cart"></i><span>Buy Now!</span></a>
-				</li>
-				<li>
-					<img src="http://placehold.it/429x428" alt="" />
-					<h3 class="color">Beat - First Album</h3>
-					<h2>$19</h2>
-					<a href="#" class="btn btn-default btn-icon"><i class="icon-shopping-cart"></i><span>Buy Now!</span></a>
-				</li>
-				<li>
-					<img src="http://placehold.it/429x428" alt="" />
-					<h3 class="color">Beat - DVD</h3>
-					<h2>$39</h2>
-					<a href="#" class="btn btn-default btn-icon"><i class="icon-shopping-cart"></i><span>Buy Now!</span></a>
-				</li>
-				<li>
-					<img src="http://placehold.it/429x428" alt="" />
-					<h3 class="color">Beat T-Shirt - Dark Version</h3>
-					<h2>$10</h2>
-					<a href="#" class="btn btn-default btn-icon"><i class="icon-shopping-cart"></i><span>Buy Now!</span></a>
-				</li>-->
-			</ul>
 		</div>
 	</section>
 	<!-- END STORE SECTION -->
@@ -648,16 +335,10 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<h1 class="section-title center">Join Mussino</h1>
-					
-					<!--<div id="form-wrap" class="col-sm-5 center">
-						<form id="form-contact" method="post" action="#" class="bg-color1">
-							<input type="text" placeholder="Name" name="contact_name" id="contact_name" />
-							<input type="email" placeholder="Email" name="contact_email" id="contact_email" />
-							<input type="text" placeholder="Subject" name="contact_subject" id="contact_subject" />
-							<textarea cols="6" rows="4" placeholder="Message" name="contact_message" id="contact_message"></textarea>
-							<a href="" id="contact_send" class="btn btn-dark btn-icon"><i class="icon-envelope"></i><span>Send</span></a>
-						</form>
-					</div>-->
+					<br>
+                    
+                    <p>
+				Mussino has been regarded as one of the best online studios with easy to use interface. Those new beats producers will get five credits for free that they can use in creating and producing music sessions through uploading their original beats that would last for up to a week. Songwriters and lyricists can search for instrumentals with the help of genres and they can preview the audio file prior they enter a session.</p>
                     <div class="col-sm-5 center">
                     <br>
                     <a href="http://www.mussino.com/registration.php" class="btn btn-dark btn-icon"><i class="icon-envelope"></i><span>Join Today</span></a>

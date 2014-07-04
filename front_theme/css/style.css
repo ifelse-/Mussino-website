@@ -927,8 +927,8 @@ fieldset[disabled] .btn-dark2.active {
 
 #social-stream-items > li .news a,
 #social-stream-items > li .news .time{
-	float:left;
-	width:285px;
+	/*float:left;
+	width:285px;*/
 }
 
 #social-stream-items > li .news button{
@@ -2599,9 +2599,9 @@ div.beat #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline{color:#
 .session_record_info_right, .session_record_info_left{float:left; width:50%;}
 
 .map_session_user_bio, .map_session_title{font-weight:bold; font-size:18px; margin-top:5px;}
-.map_inf_hd{height:79px; overflow:hidden;}
-.mappostinf{margin-top:0px; border-bottom:0px; margin-bottom:6px; width:81%; margin-left:13%;}
+.map_inf_hd{height:49px; overflow:hidden;}
+.mappostinf{margin-bottom:15px; border-bottom:0px; margin-bottom:6px; width:81%; margin-left:13%;}
 .middle_cntr{margin-right:25px; margin-left:-8px;}
 .map_user_info{float:left; width:100%; display:none; height:0px; width:0px; overflow:hidden;}
 .map_post_inf{float:left; width:16%; font-size:18px; margin-top:50px; color:#FFFFFF; font-weight:bold;}
-.map_post_inf_circ{background: url("../img/cyan_round_circle.jpg") no-repeat;color: #FFFFFF;float: left;font-size: 18px;font-weight: bold;height: 77px;padding-top: 26px;text-align: center;width: 81px;}
+.map_post_inf_circ{background: url("../img/cyan_round_circle.jpg") no-repeat;color: #FFFFFF;float: left;font-size: 15px;font-weight: bold;height: 77px;padding-top: 26px;text-align: center;width: 81px;}

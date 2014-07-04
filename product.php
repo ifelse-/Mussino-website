@@ -642,7 +642,7 @@ tinyMCE.init({
         
         
         <div class="music-session-example">
-        <p>You earn 25% of each session Royalty amount. <br />Once you start earning more on Mussino we will increase your percentage. <br /><br />Ex: 1 session x 100 songwriters credits = $100 </p>
+     <!--   <p>You earn 25% of each session Royalty amount. <br />Once you start earning more on Mussino we will increase your percentage. <br /><br />Ex: 1 session x 100 songwriters credits = $100 </p>-->
         </div>
         
           </div>
