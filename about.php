@@ -1,6 +1,5 @@
 <?php 
 require_once "config/functions.inc.php"; 
-require_once "session.inc.php"; 
 $pageName = basename($_SERVER['PHP_SELF']);
 
 ###############################
@@ -29,11 +28,16 @@ $pageName = basename($_SERVER['PHP_SELF']);
         <p>
 Mussino is not only geared towards bringing all music lovers together but our service will enable all music arts to make and earn money while they enjoy unlimited connectivity that they can only find and experience here at Mussino. Signing up here is free and you can choose to be a musician or an artist. Anyone who has the interest in promoting the most popular musicians of today’s generation may also sign up and become a judge.</p>
 <p>
-<strong>Music Producer </strong>
-Would you like to convert your ideas into money? Here at Mussino, you have the power to reach millions of lyricists anywhere in the world!! Mussino gives you the freedom to create and produce music sessions, and sell your beats to earn profit. We also allow you to find an artist to work in partnership with you in making songs for the upcoming competitions.</p>
 <p>
-<strong>Music Artist</strong>
-When you sign up as a music artist, you can enter the music sessions created by the music producers, record the lyrics of the newest beats, get votes, and the chance to make and earn money just like the music producers. You can also collaborate with the music producers anywhere in the world. Here at Mussino, you can start competing with other music artists and begin earning money. 
+<strong>The Science behind Mussino</strong>
+If you been to a recording studio or have recorded music before Mussino should be easy for you to understand. Credits are used to enter a recording session. A recording session is a mini contest that other Artist over the world will enter 
+</p>
+<p>
+<strong>Mussino Recording Studio</strong>
+Mussino has been regarded as one of the best online studios with easy to use recording interface. New members will get free  credits for free that they can use in creating and producing music sessions through uploading their original beats that would last for up to a week. Songwriters and lyricists can search for instrumentals with the help of genres and they can preview the audio file prior they enter a session.</p>
+<p>
+The songwriters are also in need of credits so that they can enter the sessions. The session credits are typically set by the producer beat creators and that can range from one to five dollars. We also provide credit packages that you can avail anytime. The songwriters can join the sessions anytime they want. The more sessions they join the higher royalty value they will get.
+Moreover, the songwriters will also have three choices to post a session. They can choose to post it by using written text, video or audio file upload. When the songwriters have read and </p>
         </p>
         </div>
     </div>

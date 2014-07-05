@@ -1114,7 +1114,7 @@ font-family: "hnbc","Helvetica Neue",Helvetica,Arial,sans-serif;}
 .lftPannel2 .user-img img { width:175px; height:171px; border-radius:100px;}
 .lftPannel2 .user-act { width:auto; padding:10px; margin:0 0 10px 0; }
 .lftPannel2 .user-act h3{ color: #333; font-size:14px; margin-bottom:15px; font-family: "hnbc","Helvetica Neue",Helvetica,Arial,sans-serif;}
-.lftPannel2 .user-act ul li { color: #333; font-size:16px; font-weight: 700; margin-bottom:10px;} 
+.lftPannel2 .user-act ul li { color: #333; font-size:16px; font-weight: 700; margin-bottom:10px; border-bottom:1px solid #E4E4E4; padding-bottom:10px;} 
 .lftPannel2 .user-act ul li span { color:#000000; font-size:44px; font-weight: 700}
 .lftPannel2 .user-list .fa{ font-size:21px;}
 

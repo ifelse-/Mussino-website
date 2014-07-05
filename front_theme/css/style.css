@@ -2303,7 +2303,7 @@ a.pp_close{position:absolute;right:10px;top:8px;display:block;line-height:22px;f
 #pp_full_res .pp_inline{text-align:left}
 #pp_full_res .pp_inline p{margin:0 0 15px}
 div.ppt{color:#fff;display:none;font-size:17px;z-index:9999;margin:0 0 5px 15px}
-div.beat .pp_details{position:relative;background-color:#3f9f97;}
+div.beat .pp_details{position:relative;background-color:#000;}
 div.beat .pp_gallery a.pp_arrow_previous,div.beat .pp_gallery a.pp_arrow_next{margin-top:8px!important}
 div.beat .pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}
 div.beat .pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}

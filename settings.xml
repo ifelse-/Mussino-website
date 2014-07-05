@@ -17,7 +17,7 @@
 	<playlist value="on"/>
 	<!-- If the playlist is set to off then the player will get the next variables for preview, sound and info. --> 
 <!--	<no_playlist_mp3_preview value="content/previews/1.jpg"/>-->
-	<no_playlist_mp3_source value="products/small_video/1398746627KABHI KABHI - DIALOGUE.mp3"/>
+	<no_playlist_mp3_source value="products/small_video/1401719278Hip Hop - The beginning.mp3"/>
 	<no_playlist_mp3_info><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></no_playlist_mp3_info>
 	
 	<playlist_title value="Audio Playlist:"/>

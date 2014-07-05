@@ -824,7 +824,7 @@ $bgimage = SITE_WS_PATH."/products/user_image/".$colles['Bg_Image'];
 				<li><a href="#active_session">Music sessions</a></li>
 				<li><a href="#instrumental_store">Instrumental Store</a></li>
 				<li><a href="#sell_session"><?=$colles['First_Name']?> Music Session store</a></li>
-				<li><a href="#music_store">Mussino music store </a></li>
+				<li><a href="#music_store">My music store </a></li>
 			</ul>
 
 <!--  Active session collapse start  -->          
@@ -1259,7 +1259,7 @@ $bgimage = SITE_WS_PATH."/products/user_image/".$colles['Bg_Image'];
 <!--  Music Store collapse start  -->          
       <div id="music_store" style="width: 742px;">             
           <div class="rgtPannel-col second">
-            <h3>Mussino music store <span><a href="http://www.mussino.com/music-store.php" target="_blank">create music store</a>.</span> </h3>
+            <h3>MYy music store <span><a href="http://www.mussino.com/music-store.php" target="_blank">create music store</a>.</span> </h3>
             <div id="slider4"> <a class="buttons prev" href="javascript:void(0);">left</a>
               <div class="inner-wrap">
                 <div class="viewport">
